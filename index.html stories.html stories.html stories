@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Imagination Official</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0b0c10, #1f2833, #0b0c10);
+      color: white;
+    }
+
+    header {
+      background: linear-gradient(90deg, #ff0000, #0000ff);
+      padding: 20px;
+      text-align: center;
+      font-size: 2.5em;
+      font-weight: bold;
+      color: #fff;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    nav {
+      background: #111;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      border: 1px solid white;
+      padding: 8px 12px;
+      border-radius: 5px;
+    }
+
+    nav a:hover {
+      background: white;
+      color: #111;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 8px;
+    }
+
+    .content h2 {
+      color: #ff0000;
+    }
+
+    footer {
+      background: linear-gradient(90deg, #0000ff, #ff0000);
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+      font-size: 1em;
+      color: #fff;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>✨ The Imagination Official ✨</header>
+
+  <nav>
+    <a href="story1.html">Story 1</a>
+    <a href="story2.html">Story 2</a>
+    <a href="story3.html">Story 3</a>
+  </nav>
+
+  <div class="content">
+    <h2>Welcome!</h2>
+    <p>This is the official page where imagination turns into stories. Explore the bookmarks above to read different tales.</p>
+  </div>
+
+  <footer>
+    The page that writes stories through imagination <br>
+    <a href="index.html">Share this page</a>
+  </footer>
+
+</body>
+</html>
